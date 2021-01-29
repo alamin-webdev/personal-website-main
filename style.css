@@ -1,0 +1,160 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    .header h1{
+        font-size: 80px;
+    }
+    
+    h1{
+        font-family:'Bebas Neue', cursive;
+  
+    }
+    .header p{
+        color: #3E3E3E;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left:3%
+        
+    }
+    
+    .half-width img{
+        width: 100%;
+        
+    }
+    .about h1{
+        font-size: 48px;
+        color: #363958;
+    }
+    .about p{
+        color: #3E3E3E;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    
+    section{
+        
+        height: 500px;
+        margin-top: 30px;
+    }
+    a{
+        text-decoration: none;
+        background-image: linear-gradient(45deg,lightsalmon, tomato);
+        border: none;
+        border-radius: 5px;
+        padding: 20px 30px;
+        color: white;
+        font-size: 16px;
+        
+    }
+    .latest-work{
+        background-color: #E5E5E5;
+        height: 600px;
+        padding-top: 100px;
+    }
+    .latest-work h4{
+        color:#363958 ;
+        font-size: 24px;
+    }
+    .latest-work p{
+        color:#6C6C6C;
+        font-size: 16px;
+    }
+    .project{
+       
+        width: 30%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .card {
+        box-shadow: 12px 10px 30px gray;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+      
+      .card:hover {
+        box-shadow: 12px 10px 30px  rgba(21, 1, 93, 0.2);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+      .work-inquiry{
+        background-image: url(shapes/Group_33094_1.png);
+        background-size: contain;
+        width: 580px;
+        position: relative;
+        height: 200px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        top: 53px;
+
+      }
+      .inquiry{
+        
+        display: flow-root;
+        margin-top: 35px;
+      }
+      .inquiry h1{
+        text-align: left;
+        color: white;
+        top: 38px;
+        position: relative;
+        left: 20px;
+      }
+      .inquiry a{
+        float: right;
+        text-align: right;
+        align-items: flex-end;
+        text-decoration: none;
+        background-image: linear-gradient(45deg,lightsalmon, tomato);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: white;
+        font-size: 16px;
+        margin-right: 30px;
+        margin-top: -15px;
+      }
+    
+    .clint{
+        background-image: url(images/bg1.jpg);
+        background-color:  #E5E5E5;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 100px;
+        height: 600px;
+        padding-top: 35px;
+    }
+       
+    .footer-msg{
+        
+        text-align: center;
+        margin: 5px 300px;
+        padding-top: 7px;
+        color: white;
+    }
+    .email-addr{
+        background-color: hotpink;
+        color: white;
+        margin: 8% 28%;
+        padding-top: 33px;
+        text-align: center;
+        border-radius: 5px; 
+        padding-bottom: 25px;
+    }
+    footer{
+        padding-top: 32px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: teal;
+        font-size: 12px;
+    }
